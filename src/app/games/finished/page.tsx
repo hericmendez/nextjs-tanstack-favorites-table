@@ -12,6 +12,7 @@ export default function FinishedGamesPage() {
 
   return (
     <div className="container mx-auto">
+      <h1 className="text-4xl font-bold my-5">Lista de jogos zerados</h1>
       <DataTable columns={columns} data={finished} />
     </div>
   );

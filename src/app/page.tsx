@@ -27,6 +27,8 @@ export default function DemoPage() {
 
   return (
     <div className="container mx-auto">
+      <h1 className="text-4xl font-bold my-5">Buscar jogos</h1>
+      <hr />
       <DataTable columns={columns} data={data} />
     </div>
   );
