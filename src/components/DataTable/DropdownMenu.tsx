@@ -3,7 +3,7 @@ import { FC } from "react";
 import { usePathname } from 'next/navigation';
 
 import { MoreHorizontal } from "lucide-react";
-import { Game } from "../../types/Game";
+import { Game } from "../../@types/Game";
 import { Button } from "../ui/button";
 import {
   DropdownMenu,

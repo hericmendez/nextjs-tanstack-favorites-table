@@ -1,6 +1,6 @@
 "use client";
-import {columns } from "@/components/DataTable/columns";
-import { DataTable } from "@/components/DataTable/data-table";
+import { columns } from "@/components/DataTable/Columns";
+import { DataTable } from "@/components/DataTable/DataTable";
 import { useGameContext } from "@/context/GameContext";
 
 
